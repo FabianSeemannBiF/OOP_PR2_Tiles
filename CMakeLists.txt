@@ -8,4 +8,10 @@ include_directories(includes)
 add_executable(OOP_PR2_Tiles
         includes/Tile.h
         src/Tile.cpp
-        main.cpp)
+        main.cpp
+        includes/RedTile.h
+        includes/BlueTile.h
+        includes/GreenTile.h
+        src/RedTile.cpp
+        src/BlueTile.cpp
+        src/GreenTile.cpp)

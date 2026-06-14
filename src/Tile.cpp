@@ -1,4 +1,4 @@
-#include "Tile.h"
+#include "../includes/Tile.h"
 
 Tile::Tile(){}
 
@@ -11,5 +11,13 @@ bool Tile::isMarked()
 
 void Tile::display()
 {
-    std::cout << 'X' << " ";
+    std::cout << getColor() << " ";
+}
+
+char Tile::getColor() {
+
+}
+
+void Tile::mark() {
+
 }
