@@ -13,11 +13,3 @@ void Tile::display()
 {
     std::cout << getColor() << " ";
 }
-
-char Tile::getColor() {
-
-}
-
-void Tile::mark() {
-
-}

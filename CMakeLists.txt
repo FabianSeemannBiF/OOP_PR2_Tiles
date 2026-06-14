@@ -14,4 +14,6 @@ add_executable(OOP_PR2_Tiles
         includes/GreenTile.h
         src/RedTile.cpp
         src/BlueTile.cpp
-        src/GreenTile.cpp)
+        src/GreenTile.cpp
+        includes/Floor.h
+        src/Floor.cpp)
